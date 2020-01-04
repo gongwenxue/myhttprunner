@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "myhttprunner"
+version = "0.1.0"
+description = ""
+authors = ["gongwenxue <2205524826@qq.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pytest = "^5.3.2"
+allure-pytest = "^2.8.6"
+
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
